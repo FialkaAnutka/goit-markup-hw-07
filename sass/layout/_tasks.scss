@@ -1,0 +1,35 @@
+.info-content--no-padding {
+    padding-top: 0px;
+}
+
+.info-content__task-item{
+&+&{
+    margin-left: 30px;
+    }
+&:last-child {
+    margin-right: 0px;
+}
+}
+   
+.info-content__task-box {
+    display: flex;
+    position: relative;
+}
+
+.info-content__task-headline {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 70px;
+    left: 0;
+    bottom: 0;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--header-color);
+    background-color: rgba(47, 48, 58, 0.8);
+}

@@ -1,8 +1,11 @@
-.info-content--no-padding {
+.task{
+    display: flex;
+}
+.section--no-padding-top {
     padding-top: 0px;
 }
 
-.info-content__task-item{
+.task__item{
 &+&{
     margin-left: 30px;
     }
@@ -11,12 +14,12 @@
 }
 }
    
-.info-content__task-box {
+.task__box {
     display: flex;
     position: relative;
 }
 
-.info-content__task-headline {
+.task__title {
     position: absolute;
     display: flex;
     align-items: center;

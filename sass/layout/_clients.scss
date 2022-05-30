@@ -1,15 +1,16 @@
-.info-content__clients-item {
+.clients--center {
+    display: flex;
+    justify-content: center;
+}
+.clients__item {
     margin-right: 30px;
+
     &:nth-child(6n) {
         margin-right: 0;
     }
 }
 
-.info-content__list--center {
-    justify-content: center;
-}
-
-.info-content__clients-link {
+.clients__link {
     display: flex;
     justify-content: center;
     align-items: center;

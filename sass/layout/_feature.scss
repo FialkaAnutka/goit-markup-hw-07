@@ -1,8 +1,8 @@
-.feature-content__list {
+.features {
     display: flex;
 }
 
-.feature-content__item {
+.features__item {
     width: 270px;
     margin-right: 30px;
 &:nth-child(4n) {
@@ -10,7 +10,7 @@
     }
 }
 
-.feature-content__item-box {
+.features__box {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,7 +21,7 @@
     margin-bottom: 30px;
 }
 
-.feature-content__headline {
+.features__title {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -30,7 +30,7 @@
     margin-bottom: var(--tipical-margin);
 }
 
-.feature-content__title {
+.features__text {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
